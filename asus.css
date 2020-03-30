@@ -1,0 +1,46 @@
+/* *{margin:0 auto;} */
+/* .atas{background: rgb(238, 203, 8);height: 60px;} */
+/* .menu{background: skyblue;height: 50px;} */
+/* li{display:inline} */
+/* img{width: 100px; height: 40px;} */
+/* img{float: right 0px; margin-top: 10px; margin-bottom: 20px; margin-left: 50px; margin-right: 10px;} */
+
+
+/* Ini style navbar */
+
+.navbar-custom{
+    background-color: rgb(238, 203, 8) ;
+    border: rgb(238, 203, 8) ;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+} 
+.navbar-inverse .navbar-nav > li:hover{
+    background-color: rgb(226, 175, 6);
+}
+
+.brand-gue{
+    padding: 5px 15px !important;
+}
+
+/* Ini style dropdown */
+
+.dropdown-menu > a:hover{
+    background-color: rgb(226, 175, 6);
+}
+.dropdown-menu{
+    background-color: rgb(255, 238, 0) ;
+}
+
+/* Ini style jumbotron */
+
+section{
+    /* min-height: 600px; */
+    background-color: rgb(51, 51, 51);
+}
+.jumbotron{
+    height: 550px;
+    background-image: url(gambar/iphone_xr_banner.jpg);
+    background-size: cover;
+}
+

@@ -1,0 +1,31 @@
+.mainmenubtn {
+    background-color: rgb(238, 203, 8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+ 
+.mainmenubtn:hover {
+    background-color: rgb(226, 175, 6);
+    }
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(238, 203, 8);
+    min-width: auto;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
